@@ -1,0 +1,23 @@
+C:\Users\jan11\source\repos\Music App\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\jan11\source\repos\Music App\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\jan11\source\repos\Music App\obj\Debug\netcoreapp3.1\Music App_MarkupCompile.cache
+C:\Users\jan11\source\repos\Music App\obj\Debug\netcoreapp3.1\Music App_MarkupCompile.lref
+C:\Users\jan11\source\repos\Music App\bin\Debug\netcoreapp3.1\Music App.exe
+C:\Users\jan11\source\repos\Music App\bin\Debug\netcoreapp3.1\Music App.deps.json
+C:\Users\jan11\source\repos\Music App\bin\Debug\netcoreapp3.1\Music App.runtimeconfig.json
+C:\Users\jan11\source\repos\Music App\bin\Debug\netcoreapp3.1\Music App.runtimeconfig.dev.json
+C:\Users\jan11\source\repos\Music App\bin\Debug\netcoreapp3.1\Music App.dll
+C:\Users\jan11\source\repos\Music App\bin\Debug\netcoreapp3.1\Music App.pdb
+C:\Users\jan11\source\repos\Music App\bin\Debug\netcoreapp3.1\MaterialDesignColors.dll
+C:\Users\jan11\source\repos\Music App\bin\Debug\netcoreapp3.1\MaterialDesignThemes.Wpf.dll
+C:\Users\jan11\source\repos\Music App\obj\Debug\netcoreapp3.1\App.baml
+C:\Users\jan11\source\repos\Music App\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\jan11\source\repos\Music App\obj\Debug\netcoreapp3.1\Music App.g.resources
+C:\Users\jan11\source\repos\Music App\obj\Debug\netcoreapp3.1\Music App.AssemblyInfoInputs.cache
+C:\Users\jan11\source\repos\Music App\obj\Debug\netcoreapp3.1\Music App.AssemblyInfo.cs
+C:\Users\jan11\source\repos\Music App\obj\Debug\netcoreapp3.1\Music App.csproj.CoreCompileInputs.cache
+C:\Users\jan11\source\repos\Music App\obj\Debug\netcoreapp3.1\Music App.csproj.CopyComplete
+C:\Users\jan11\source\repos\Music App\obj\Debug\netcoreapp3.1\Music App.dll
+C:\Users\jan11\source\repos\Music App\obj\Debug\netcoreapp3.1\Music App.pdb
+C:\Users\jan11\source\repos\Music App\obj\Debug\netcoreapp3.1\Music App.genruntimeconfig.cache
+C:\Users\jan11\source\repos\Music App\obj\Debug\netcoreapp3.1\Music App.csprojAssemblyReference.cache

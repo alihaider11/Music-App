@@ -1,0 +1,59 @@
+﻿<Window x:Class="Music_App.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:local="clr-namespace:Music_App"
+        mc:Ignorable="d"
+        Height="550" Width="300" WindowStartupLocation="CenterScreen" WindowStyle="None" ResizeMode="NoResize" AllowsTransparency="True" Background="{x:Null}">
+    <Grid Background="{x:Null}">
+        <materialDesign:Card Margin="10" UniformCornerRadius="20" Background="{x:Null}" MouseDown="Card_MouseDown">
+            <StackPanel>
+                <StackPanel.Background>
+                    <LinearGradientBrush StartPoint="0.1,0" EndPoint="0.3,1">
+                        <GradientStop Color="#121212" Offset="1" />
+                        <GradientStop Color="#292929" Offset="0" />
+                    </LinearGradientBrush>
+                </StackPanel.Background>
+                <Grid Height="70">
+                    <Button Style="{StaticResource CActionButtons}" HorizontalAlignment="Left" Margin="20 0" ToolTip="Open File" x:Name="btnFile">
+                        <StackPanel Margin="-5">
+                            <materialDesign:PackIcon Kind="Folder" Width="20" Height="20" />
+                        </StackPanel>                        
+                    </Button>
+                    <Button Style="{StaticResource CActionButtons}" HorizontalAlignment="Right" Margin="20 0" ToolTip="Close" x:Name="btnClose" Click="btnClose_Click">
+                        <StackPanel Margin="-5">
+                            <materialDesign:PackIcon Kind="Close" Width="20" Height="20" />
+                        </StackPanel>
+                    </Button>
+                </Grid>
+                <Image Margin="10" Height="200" x:Name="Musicimg" Stretch="Uniform" Source="Images/MusicIcon.png" />
+                <TextBlock Margin="10" FontSize="19" Text="Song name" Foreground="White" TextAlignment="Center" FontWeight="SemiBold" x:Name="lblSongname" />
+                <TextBlock FontSize="11" Text="C# WPF Mp3 Music Player" Foreground="White" TextAlignment="Center" FontWeight="ExtraLight" />
+                <Grid Margin="0 30 0 0">
+                    <TextBlock FontSize="11" Text="0:00" Margin="20 0" Foreground="White" FontWeight="ExtraLight" TextAlignment="Center" HorizontalAlignment="Left" x:Name="lblCurrenttime" />
+                    <TextBlock FontSize="11" Text="0:00" Margin="20 0" Foreground="White" FontWeight="ExtraLight" TextAlignment="Center" HorizontalAlignment="Right" x:Name="lblMusiclength" />
+                </Grid>
+                <Slider Value="0" Minimum="1" Maximum="50" Margin="20 0" Foreground="#FF731101" x:Name="TimerSlider" />
+                <WrapPanel HorizontalAlignment="Center" Margin="0 30">
+                    <Button Style="{StaticResource CActionButtons}" HorizontalAlignment="Right" Margin="10 0" ToolTip="Play Next" x:Name="btnPNext">
+                        <StackPanel Margin="-5">
+                            <materialDesign:PackIcon Kind="FastForward" Width="20" Height="20" />
+                        </StackPanel>
+                    </Button>
+                    <Button Style="{StaticResource CActionButtons}" HorizontalAlignment="Right" Margin="10 0" ToolTip="Play" x:Name="btnPlay">
+                        <StackPanel Margin="-5">
+                            <materialDesign:PackIcon Kind="Play" Width="20" Height="20" />
+                        </StackPanel>
+                    </Button>
+                    <Button Style="{StaticResource CActionButtons}" HorizontalAlignment="Right" Margin="10 0" ToolTip="Play Next" x:Name="btnPRewind">
+                        <StackPanel Margin="-5">
+                            <materialDesign:PackIcon Kind="FastRewind" Width="20" Height="20" />
+                        </StackPanel>
+                    </Button>
+                </WrapPanel>
+            </StackPanel>
+        </materialDesign:Card>
+    </Grid>
+</Window>

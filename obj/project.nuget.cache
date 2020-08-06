@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "9R94iPybuKqZX/hATrGATZiiGd/y77pPUQXwP6x8pI06yjhBAgAmPHQsvyNNlh5UV6u3D440NHjk16kPr2aRCg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jan11\\source\\repos\\Music App\\Music App.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jan11\\.nuget\\packages\\materialdesigncolors\\1.2.6\\materialdesigncolors.1.2.6.nupkg.sha512",
+    "C:\\Users\\jan11\\.nuget\\packages\\materialdesignthemes\\3.1.3\\materialdesignthemes.3.1.3.nupkg.sha512"
+  ],
+  "logs": []
+}
